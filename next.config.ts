@@ -1,7 +1,5 @@
-import type { NextConfig } from "next";
+import { withContentkit } from "contentkit/next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
-
-export default nextConfig;
+export default withContentkit({
+  reactStrictMode: true,
+});
