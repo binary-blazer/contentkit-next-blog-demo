@@ -2,6 +2,8 @@ import type { ContentKitConfig } from "contentkit/types";
 
 const config: ContentKitConfig = {
   contentDirPath: "content",
+  outputFormat: "esm",
+  generateTypes: true,
   documentTypes: [
     {
       name: "Post",
