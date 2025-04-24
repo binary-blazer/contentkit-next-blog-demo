@@ -15,7 +15,11 @@ export default function Home() {
       <main className="flex min-h-screen flex-col items-start justify-start py-24 px-10 md:px-[10rem] lg:px-[12rem] xl:px-[20rem] 2xl:px-[30rem]">
         <div className="flex flex-col items-start justify-center">
           <div className="flex flex-row items-start justify-center gap-2">
-            <img src="/contentkit.svg" alt="ContentKit Logo" className="w-11 h-11" />
+            <img
+              src="/contentkit.svg"
+              alt="ContentKit Logo"
+              className="w-11 h-11"
+            />
             <h1 className="text-5xl font-bold">ContentKit Blog Demo</h1>
           </div>
           <p className="mt-4 text-lg">

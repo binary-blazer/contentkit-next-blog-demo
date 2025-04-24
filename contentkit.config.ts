@@ -12,7 +12,7 @@ const config: ContentKitConfig = {
         title: { type: "string", required: true },
         date: { type: "date", required: true },
         description: { type: "string", required: true },
-        tags: { type: "array", required: false },
+        tags: { type: "array", items: { type: "string" }, required: false },
         image: { type: "string", required: false },
         slug: { type: "string", required: true },
       },
